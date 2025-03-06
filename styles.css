@@ -1,0 +1,202 @@
+:root {
+    font-family: Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    --colorOne: #041B15;
+    --colorTwo: #B3EfB2;
+    --colorThree: #E6AA68;
+    --colorFour: #0A8754;
+    --colorFive: #9F7833;
+}
+
+header {
+    text-align: center;
+    background-color: var(--colorFour);
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: palegreen;
+    border: 3px solid var(--colorOne);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    transform: scale(1.2);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorOne);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: limegreen;
+}
+
+a:visited {
+    color: var(--colorFive);
+}
+
+body {
+     background-color: var(--colorTwo);
+}
+
+main {
+    background-color: var(--colorThree);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--colorOne);
+}
+
+.saying {
+    font-style: italic;
+}
+
+h4 {
+    text-decoration: none;
+}
+
+.contact {
+    text-align: left;
+    margin: 0;
+}
+
+
+form h4 {
+    font-size: 35px;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    font-size: 25px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    border: 1px solid var(--colorOne);
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: mediumseagreen;
+    font-size: 20px;
+}
+
+address {
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+
+img {
+    max-width: 350px;
+    max-height: 350px;
+    margin: auto;
+    border: 3px solid var(--colorFour);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px var(--colorOne);
+}
+
+section {
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+sub {
+    font-size: 25px;
+    text-wrap: pretty;
+    padding: 5px;
+}
+
+div {
+    margin: 30px;
+    background-color: darkseagreen;
+}
+
+div .references {
+    display: flex;
+    text-align: center;
+}
+
+.reviews {
+    background-color: var(--colorThree);
+    text-align: right;
+    font-style: italic;
+    display: flex;
+}
+
+.container {
+    text-wrap-mode: wrap;
+    padding: 5px;
+}
+
+select {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+    padding: 5px;
+    color: var(--colorOne);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--colorOne);
+    padding: 20px;
+    font-size: 25px;
+}
+
+footer p {
+    color: var(--colorTwo);
+}
